@@ -1,0 +1,28 @@
+lang: ru
+options:
+  system_options:
+    # replace null with your token
+    bot_token: "null"
+    # replace null with you chanel id
+    chanel_id: "null"
+  global_options:
+    need_send_death_message: false
+    need_send_join_message: false
+    need_send_leave_message: false
+    need_send_new_adbenture_message: false
+    need_send_from_chat_messge_into_minecraft: false
+    need_send_from_minecraft_message_into_chat: false
+messages:
+  # {name}  - in name will be  put player nick name
+  ru:
+    join: "{name} присоединился к игре"
+    leave: "{name} покинул игру"
+    send_mess: "От {name}: "
+    send_to_minecarft: "От {name}: "
+    death: "{name} "
+  en:
+    join: "{name} joined to game"
+    leave: "{name} left the game"
+    send_mess: "From {name}: "
+    send_to_minecraft: "From {name}: "
+    death: "{name} "

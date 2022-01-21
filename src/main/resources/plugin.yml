@@ -1,0 +1,5 @@
+name: DSBot
+version: ${project.version}
+main: me.sweettie.DSBot.Main
+api-version: 1.17
+authors: [ Sweettie ]
